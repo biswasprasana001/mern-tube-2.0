@@ -1,0 +1,79 @@
+#playlist-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#playlist-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#playlist-name-label {
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+#playlist-form input {
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+#playlist-add-btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#playlist {
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px auto;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+#playlist-submit {
+    background-color: #32cd32;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+#playlist-cancel {
+    background-color: rgb(255, 90, 90);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 300px;
+}

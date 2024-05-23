@@ -1,0 +1,132 @@
+#video-details {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+#video-title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#video-description {
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#video-player {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#video-likes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#video-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+  flex-direction: column;
+}
+
+#video-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#like-btn,
+#share-btn,
+#comment-btn,
+#add-to-playlist-btn {
+  border: none;
+  background-color: #32cd32;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#comment-section {
+  width: 100%;
+}
+
+#comment-input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+#comment-submit-btn {
+  background-color: #32cd32;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#comment {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+@media screen and (min-width: 601px) {
+  #video-title {
+    font-size: 30px;
+  }
+
+  #video-description {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #video-title {
+    font-size: 20px;
+  }
+
+  #video-description {
+    font-size: 15px;
+  }
+
+  #video-buttons {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #video-title {
+    font-size: 15px;
+  }
+
+  #video-description {
+    font-size: 10px;
+  }
+}

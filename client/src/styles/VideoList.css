@@ -1,0 +1,116 @@
+#video-list {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#video-list-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#all-videos,
+#my-videos,
+#liked-videos,
+#saved-videos {
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+#playlist-btns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#playlist-btn {
+    background-color: white;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 300px;
+    padding: 5px 10px;
+}
+
+#playlist-name-btn,
+#playlist-delete-btn {
+    background-color: #32cd32;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px auto;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+#playlist-delete-btn {
+    background-color: rgb(255, 90, 90);
+}
+
+#video {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+#uploaded-by {
+    color: #34495e;
+    font-size: 14px;
+    /* Implement Shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 568px) {
+    #video-list-buttons {
+        flex-direction: column;
+    }
+}
